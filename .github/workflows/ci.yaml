@@ -60,7 +60,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
@@ -234,7 +234,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
@@ -274,7 +274,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
@@ -306,7 +306,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
@@ -344,7 +344,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
@@ -393,7 +393,7 @@ jobs:
         with:
           mode: 'audit'
           default_policy: 'block-all'
-          allow-http: 'false'
+          allow_http: 'false'
           egress_rules: |
             - name: 'Allow GitHub subs'
               destination: '*.github.com'
